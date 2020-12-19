@@ -1,0 +1,19 @@
+/* AVG */
+SELECT AVG(COMMISSION)
+FROM agents;
+
+/* Min */
+SELECT MIN(COMMISSION) AS SmallestCommision
+FROM agents;
+
+/* Max */
+SELECT MAX(COMMISSION) AS HIGHESTCommision
+FROM agents;
+
+/* COUNT */
+SELECT COUNT(AGENT_CODE)
+FROM agents;
+
+/* SUM */
+SELECT SUM(COMMISSION)
+FROM agents;
