@@ -4,7 +4,7 @@ VALUES (1955991593, 'Tanay', 'Kapoor', 'abc', 'abc');
 
 /* UPDATE */
 UPDATE student
-SET Address = 'DEF', City= 'GHI'
+SET Address = 'ABC', City= 'DEF'
 WHERE roll_number = 1955991593;
 
 /* Delete */
